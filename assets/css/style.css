@@ -1,0 +1,195 @@
+body {font: 13px Lato, Tahoma, sans-serif;}
+
+/* We like off-black for text. */
+body, select, input, textarea {color: #333;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+/* Custom text-selection colors (remove any text shadows */
+::-moz-selection{background: #b3d143; color: #fff; text-shadow: none;}
+::selection {background: #b3d143; color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#f4f2ca; }
+textarea:-moz-placeholder { color:#f4f2ca; }
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+body {
+	background-color: #f05133;
+	color: #efaa9d;
+	text-align: center;
+	font-family: Lato, Tahoma, sans-serif;
+}
+
+.wrapper {
+	
+}
+
+a {
+	color: #f4f2ca;
+	text-decoration: none;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+}
+a:hover {
+	color: #f4f2ca;
+	opacity: .6;
+}
+
+p a {
+	border-bottom: 1px solid rgba(255,255,255, .2);
+	padding: .2em 0;
+}
+
+
+
+
+/* Branding, title, and tagline */
+.logo {
+	width: 35px;
+	height: auto;
+	margin: 4em auto 1em;
+}
+
+.title {
+	font-size: 2.5em;
+	margin: .3em 0 .1em;
+}
+
+.tagline {
+	color: #efaa9d;
+	margin: 0 0 2em;
+}
+
+@media screen and (min-width: 480px) {
+
+	.logo {
+		margin-top: 0;
+	}
+
+	.title {
+		font-size: 3.5em;
+	}
+		
+}
+
+
+
+
+.button,
+.email {
+	width: 80px;
+	display: inline-block;
+	color: #f4f2ca;
+	text-align: center;
+	background-color: #d8492e;
+	padding: .9em 1.8em;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: all .1s linear;
+	-moz-transition: all .1s linear;
+	transition: all .1s linear;
+}
+.button:hover {
+	color: #f4f2ca;
+}
+
+::-webkit-input-placeholder {
+   color: #f4f2ca;
+   opacity: .8;
+}
+
+.email:hover {
+	background-color: #d0432a;
+}
+.email.active {
+	width: 200px;
+	outline: none;
+	color: #efaa9d;
+	text-align: left;
+	cursor: inherit;
+}
+
+#mc-embedded-subscribe {
+	width: 35px;
+	height: 35px;
+	border: none;
+	text-indent: -9999px;
+	background: url(../img/arrow-circle-on-right.svg) no-repeat;
+	background-size: 13px;
+	background-position: 0 1px;
+	opacity: .25;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+
+	display: none;
+}
+#mc-embedded-subscribe:hover {
+	opacity: .33;
+}
+
+#mc-embedded-subscribe.show {
+	display: inline-block;
+	background-size: 33px;
+}
+
+#mc_embed_signup {
+	position: relative;
+}
+
+.response {
+	margin: 1em 0;
+}
+
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 480px) {
+	
+	.middle {
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+		
+}
+
+
+
+/* Simple sticky footer */
+.site-footer {
+	margin-top: 8em;
+}
+
+@media screen and (min-width: 480px) {
+
+	.site-footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+}
+
+.copyright {
+	opacity: .5;
+}
