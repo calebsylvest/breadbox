@@ -1,0 +1,26 @@
+/* Import Partials!
+-------------------------------------------------------------------------------*/
+
+@import "compass/css3";
+@import "compass/utilities/color/contrast";
+
+// browser reset
+@import "_normalize";
+
+
+
+//
+//
+// Change these variables if you like
+
+$primary-color: #f05133;
+$sans-font: Lato, Tahoma, sans-serif; // be sure to load whatever font files you want to use, in this case we are loading Lato from Google Web Fonts
+//$font-color: #efaa9d;
+$font-color: #f4f2ca;
+
+//
+//
+//
+
+@import "_global";
+@import "_callout";

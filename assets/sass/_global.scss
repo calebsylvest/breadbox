@@ -1,0 +1,82 @@
+/* Global
+-------------------------------------------------------------------------------*/
+
+body {font: 13px $sans-font;}
+
+// We like off-black for text.
+body, select, input, textarea {color: #333;}
+
+// Custom text-selection colors (remove any text shadows)
+::-moz-selection{background: #b3d143; color: #fff; text-shadow: none;}
+::selection {background: #b3d143; color: #fff; text-shadow: none;} 
+
+//	j.mp/webkit-tap-highlight-color
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+// style input field text color
+input:-moz-placeholder { color: $font-color; }
+textarea:-moz-placeholder { color: $font-color; }
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+
+body {
+	background-color: $primary-color;
+	color: rgba($font-color, .5);
+	text-align: center;
+	font-family: $sans-font;
+}
+
+.wrapper {
+	
+}
+
+/* anchor links */
+a {
+	color: $font-color;
+	text-decoration: none;
+	@include transition(all .2s linear);
+
+	&:hover {
+		opacity: .6;
+	}
+
+	// anchor links in a paragraph
+	p & {
+		border-bottom: 1px solid rgba(255,255,255, .2);
+		padding: .2em 0;
+	}
+}
+
+
+/* class to vertically and horizontally center a section */
+@media screen and (min-width: 480px) {
+	
+	.middle {
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}		
+}
+
+
+/* Simple sticky footer */
+.site-footer {
+	margin-top: 8em;
+
+	@media screen and (min-width: 480px) {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+}
+
+.copyright {
+	//opacity: .5;
+}
