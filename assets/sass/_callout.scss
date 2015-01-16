@@ -25,10 +25,8 @@
 }
 
 .tagline {
-	color: #efaa9d;
-	color: contrast-color($primary-color, darken($primary-color,30%), lighten($primary-color, 20%), 50%);
-	//color: $font-color;
-	//opacity: .5;
+	// set color based on background hue
+	color: contrast-color($primary-color, darken($primary-color,25%), lighten($primary-color, 20%));
 	margin: 0 0 2em;
 }
 
@@ -43,7 +41,8 @@
 	display: inline-block;
 	color: #f4f2ca;
 	text-align: center;
-	background-color: #d8492e;
+	//background-color: #d8492e;
+	background-color: contrast-color($primary-color, darken($primary-color,25%), lighten($primary-color, 20%));
 	padding: .9em 1.8em;
 	border: none;
 	cursor: pointer;
