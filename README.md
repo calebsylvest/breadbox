@@ -16,7 +16,7 @@ The landing page method of Breadbox has been tested with interesting results. Us
 
 ## How to Use
 
-1. Clone, Download, or Fork Breadbox
+1. Clone, ![Download](https://github.com/calebsylvest/breadbox/archive/master.zip), or ![Fork](https://github.com/calebsylvest/breadbox/fork) Breadbox
 
 To change:
 Logo
