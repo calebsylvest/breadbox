@@ -30,3 +30,8 @@ The landing page method of Breadbox has been tested with interesting results. Us
 	- Any other custom changes
 4. Add email newsletter info. I prefer and use MailChimp, so the email form skeleton is straight from MailChimp. Simply add your unique list code to the `form` action to properly setup the signup field.
 5. Add Google Analytics. Cause if there ain't analytics, then it didn't happen!
+6. Launch into the real world.
+
+## What Next?
+
+Well, that's for you to decide. I hope Breadbox is a useful tool for you, or at least a jumping off point to assist in research. Feel free to [log an issue](https://github.com/calebsylvest/breadbox/issues) or [create a pull request](https://github.com/calebsylvest/breadbox/pulls) or shoot me a [tweet](https://twitter.com/calebsylvest)!
