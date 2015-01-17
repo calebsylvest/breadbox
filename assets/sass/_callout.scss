@@ -6,22 +6,19 @@
 	width: 35px;
 	height: auto;
 	margin: 4em auto 1em;
+
+	@media screen and (min-width: 480px) {
+		margin-top: 0;	
+	}
 }
 
 .title {
 	font-size: 2.5em;
 	margin: .3em 0 .1em;
-}
 
-@media screen and (min-width: 480px) {
-
-	.logo {
-		margin-top: 0;
-	}
-
-	.title {
+	@media screen and (min-width: 480px) {
 		font-size: 3.5em;
-	}	
+	}
 }
 
 .tagline {
@@ -31,49 +28,41 @@
 }
 
 
-
-
-
-/* email field signup */
-.button,
-.email {
+/* email input field/button signup */
+#email-button {
 	width: 80px;
 	display: inline-block;
-	color: #f4f2ca;
+	//color: #f4f2ca;
 	text-align: center;
-	//background-color: #d8492e;
-	background-color: contrast-color($primary-color, darken($primary-color,25%), lighten($primary-color, 20%));
+	background-color: $button-color;
 	padding: .9em 1.8em;
 	border: none;
 	cursor: pointer;
 	outline: none;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	-webkit-transition: all .1s linear;
-	-moz-transition: all .1s linear;
-	transition: all .1s linear;
-}
-.button:hover {
-	color: #f4f2ca;
+	@include border-radius(4px);
+	@include transition(all .1s linear);
+	
+	// darken button on hover
+	&:hover {
+		background-color: darken($button-color, 5%);
+	}
+
+	&.active {
+		width: 200px;
+		outline: none;
+		color: $font-color;
+		text-align: left;
+		cursor: inherit;
+	}
 }
 
+// text color for email button/input field
 ::-webkit-input-placeholder {
-   color: #f4f2ca;
+   color: $font-color;
    opacity: .8;
 }
 
-.email:hover {
-	background-color: #d0432a;
-}
-.email.active {
-	width: 200px;
-	outline: none;
-	color: #efaa9d;
-	text-align: left;
-	cursor: inherit;
-}
-
+// email submit arrow button
 #mc-embedded-subscribe {
 	width: 35px;
 	height: 35px;
@@ -83,33 +72,29 @@
 	background-size: 13px;
 	background-position: 0 1px;
 	opacity: .25;
-	-webkit-transition: all .2s linear;
-	-moz-transition: all .2s linear;
-	transition: all .2s linear;
-
+	@include transition(all .2s linear);
+	
+	// hide until the email button is clicked
 	display: none;
-}
-#mc-embedded-subscribe:hover {
-	opacity: .33;
+
+	&:hover {
+		opacity: .33;
+	}
+	
+	// show submit arrow when button is clicked
+	&.show {
+		display: inline-block;
+		background-size: 33px;
+	}
 }
 
-#mc-embedded-subscribe.show {
-	display: inline-block;
-	background-size: 33px;
-}
-
+// MailChimp email container
 #mc_embed_signup {
 	position: relative;
 }
 
+// MailChimp response field
 .response {
 	margin: 1em 0;
 }
-
-
-
-/* Media queries
--------------------------------------------------------------------------------*/
-
-
 

@@ -7,18 +7,21 @@
 // browser reset
 @import "_normalize";
 
-
-
 //
 //
 // Change these variables if you like
 
 // set the bg color of page; tagline and button are based on bg color
 $primary-color: #f05133;
+
 // be sure to load whatever font files you want to use, in this case we are loading Lato from Google Web Fonts
 $sans-font: Lato, Tahoma, sans-serif; 
+
 // font color for page title, all text, and anchor links
 $font-color: #f4f2ca;
+
+// email signup button
+$button-color: #d8492e;
 
 //
 //
