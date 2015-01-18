@@ -3,6 +3,8 @@ Breadbox
 
 A quick and simple splashpage for launching a product idea and collecting emails
 
+Check out the [Breadbox Demo](http://calebsylvest.github.io/breadbox/)
+
 
 ## Why Breadbox?
 
