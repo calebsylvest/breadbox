@@ -14,6 +14,10 @@ In it's base form, Breadbox is nothing more than a logo, product name, tagline, 
 
 The landing page method of Breadbox has been tested with interesting results. Using the base form with a logo, product name, and intriguing tagline accompanied with dispersal to a target market, Breadbox has returned a 30% conversion rate in email signups.
 
+### Example
+
+![Helix Powered Example](assets/img/example.png?raw=true "Helix Powered Example")
+
 ## How to Use
 
 1. Clone, [Download](https://github.com/calebsylvest/breadbox/archive/master.zip), or [Fork](https://github.com/calebsylvest/breadbox/fork) Breadbox
