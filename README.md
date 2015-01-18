@@ -27,7 +27,7 @@ The landing page method of Breadbox has been tested with interesting results. Us
 3. Change any site styles, styles are built with Sass and Compass, so change variables in the `style.scss` file before making any code changes
 	- Background Color
 	- Font (be sure to link any CDN fonts in the site header)
-	- Any other custom changes
+	- Any other custom changes (check button text color, text color, etc)
 4. Add email newsletter info. I prefer and use MailChimp, so the email form skeleton is straight from MailChimp. Simply add your unique list code to the `form` action to properly setup the signup field.
 5. Add Google Analytics. Cause if there ain't analytics, then it didn't happen!
 6. Launch into the real world.
