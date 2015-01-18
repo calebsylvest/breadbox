@@ -16,6 +16,10 @@ The landing page method of Breadbox has been tested with interesting results. Us
 
 ### Example
 
+Here is an example of using the Breadbox splashpage. Initially for my [HelixPowered](http://helixpowered.com/) product I threw up a simple splash page, added a catchy tagline and posted to a relevant community ([Designer News](https://news.layervault.com/) in this case). In less than 24 hours the site had just over 600 vistors and 197 email signups (so about a 30% conversion). While I know many people dislike product pages asking for emails with limited (or no) explanation or information, the thing is, it *does* work. And it's a good way to test and validate an idea before investing too much time and money on a product  that may not have a solid market. 
+
+Haters gonna hate, so it's up to you whether you choose to use this method. What I did was use the intial splashpage, receive some email signups, send out an email, get some feedback, then when I had input on the product (and validatation) I built out an extended version of the landing/marketing page for [HelixPowered](http://helixpowered.com/). IMHO, this is a great early path to starting a new product.
+
 ![Helix Powered Example](assets/img/example.png?raw=true "Helix Powered Example")
 
 ## How to Use
