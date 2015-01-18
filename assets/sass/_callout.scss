@@ -32,7 +32,6 @@
 #email-button {
 	width: 80px;
 	display: inline-block;
-	//color: #f4f2ca;
 	text-align: center;
 	background-color: $button-color;
 	padding: .9em 1.8em;
@@ -50,7 +49,7 @@
 	&.active {
 		width: 200px;
 		outline: none;
-		color: $font-color;
+		color: $primary-color;
 		text-align: left;
 		cursor: inherit;
 	}
@@ -58,7 +57,7 @@
 
 // text color for email button/input field
 ::-webkit-input-placeholder {
-   color: $font-color;
+   color: $primary-color;
    opacity: .8;
 }
 
