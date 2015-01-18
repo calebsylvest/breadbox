@@ -14,7 +14,7 @@ In it's base form, Breadbox is nothing more than a logo, product name, tagline, 
 
 The landing page method of Breadbox has been tested with interesting results. Using the base form with a logo, product name, and intriguing tagline accompanied with dispersal to a target market, Breadbox has returned a 30% conversion rate in email signups.
 
-### Example
+#### Example
 
 Here is an example of using the Breadbox splashpage. Initially for my [HelixPowered](http://helixpowered.com/) product I threw up a simple splash page, added a catchy tagline and posted to a relevant community ([Designer News](https://news.layervault.com/) in this case). In less than 24 hours the site had just over 600 vistors and 197 email signups (so about a 30% conversion). While I know many people dislike product pages asking for emails with limited (or no) explanation or information, the thing is, it *does* work. And it's a good way to test and validate an idea before investing too much time and money on a product  that may not have a solid market. 
 
@@ -25,7 +25,7 @@ Haters gonna hate, so it's up to you whether you choose to use this method. What
 ## How to Use
 
 1. Clone, [Download](https://github.com/calebsylvest/breadbox/archive/master.zip), or [Fork](https://github.com/calebsylvest/breadbox/fork) Breadbox
-2. Change relevant site content
+2. Change relevant site content in the `index.html` file
 	- Logo
 	- Site Title
 	- Tagline (this needs to be short, sweet, relevant, and intriguing)
