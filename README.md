@@ -26,7 +26,7 @@ Haters gonna hate, so it's up to you whether you choose to use this method. What
 
 ## How to Use
 
-1. Clone, [Download](https://github.com/calebsylvest/breadbox/archive/master.zip), or [Fork](https://github.com/calebsylvest/breadbox/fork) Breadbox
+1. [Clone](https://github.com/calebsylvest/breadbox.git), [Download](https://github.com/calebsylvest/breadbox/archive/master.zip), or [Fork](https://github.com/calebsylvest/breadbox/fork) Breadbox
 2. Change relevant site content in the `index.html` file
 	- Logo
 	- Site Title
