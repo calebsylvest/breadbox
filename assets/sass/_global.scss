@@ -7,8 +7,8 @@ body {font: 13px $sans-font;}
 body, select, input, textarea {color: #333;}
 
 // Custom text-selection colors (remove any text shadows)
-::-moz-selection{background: $font-color; color: #fff; text-shadow: none;}
-::selection {background: $font-color; color: #fff; text-shadow: none;} 
+::-moz-selection{background: $anchor-color; color: #fff; text-shadow: none;}
+::selection {background: $anchor-color; color: #fff; text-shadow: none;} 
 
 //	j.mp/webkit-tap-highlight-color
 a:link {-webkit-tap-highlight-color: #fcd700;} 
@@ -17,8 +17,8 @@ ins {background-color: #fcd700; color: #000; text-decoration: none;}
 mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
 
 // style input field text color
-input:-moz-placeholder { color: $font-color; }
-textarea:-moz-placeholder { color: $font-color; }
+input:-moz-placeholder { color: $anchor-color; }
+textarea:-moz-placeholder { color: $anchor-color; }
 
 h1, h2, h3, h4, h5 {
 	font-weight: normal;
@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5 {
 
 body {
 	background-color: $primary-color;
-	//color: rgba($font-color, .5);
 	color: contrast-color($primary-color, darken($primary-color,25%), lighten($primary-color, 20%));
 	text-align: center;
 	font-family: $sans-font;
@@ -38,7 +37,7 @@ body {
 
 /* anchor links */
 a {
-	color: $font-color;
+	color: $anchor-color;
 	text-decoration: none;
 	@include transition(all .2s linear);
 
@@ -48,7 +47,7 @@ a {
 
 	// anchor links in a paragraph
 	p & {
-		border-bottom: 1px solid rgba($font-color, .2);
+		border-bottom: 1px solid rgba($anchor-color, .2);
 		padding: .2em 0;
 	}
 }
