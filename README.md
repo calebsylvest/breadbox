@@ -45,3 +45,8 @@ Haters gonna hate, so it's up to you whether you choose to use this method. What
 ## What Next?
 
 Well, that's for you to decide. I hope Breadbox is a useful tool for you, or at least a jumping off point to assist in research. Feel free to [log an issue](https://github.com/calebsylvest/breadbox/issues) or [create a pull request](https://github.com/calebsylvest/breadbox/pulls) or shoot me a [tweet](https://twitter.com/calebsylvest)!
+
+## License
+
+Copyright (c) 2015 Caleb Sylvest. See the LICENSE file for license rights and
+limitations (MIT).
